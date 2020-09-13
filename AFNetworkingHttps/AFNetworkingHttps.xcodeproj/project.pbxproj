@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E5DB1DAECB9D08792560F2 /* libPods-AFNetworkingHttps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4B3E1E1D08BEC780850D37 /* libPods-AFNetworkingHttps.a */; };
+		EFCBC299250E72C4001C04EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCBC298250E72C4001C04EA /* AppDelegate.m */; };
+		EFCBC29C250E72C4001C04EA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCBC29B250E72C4001C04EA /* SceneDelegate.m */; };
+		EFCBC29F250E72C4001C04EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCBC29E250E72C4001C04EA /* ViewController.m */; };
+		EFCBC2A2250E72C4001C04EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCBC2A0250E72C4001C04EA /* Main.storyboard */; };
+		EFCBC2A4250E72C5001C04EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCBC2A3250E72C5001C04EA /* Assets.xcassets */; };
+		EFCBC2A7250E72C5001C04EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCBC2A5250E72C5001C04EA /* LaunchScreen.storyboard */; };
+		EFCBC2AA250E72C5001C04EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCBC2A9250E72C5001C04EA /* main.m */; };
+		EFCBC2B4250E73C1001C04EA /* TwowayHttps.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCBC2B3250E73C1001C04EA /* TwowayHttps.m */; };
+		EFCBC2B7250E74EA001C04EA /* OnewayHttps.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCBC2B6250E74EA001C04EA /* OnewayHttps.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F87886F9FFBEA620922386B /* Pods-AFNetworkingHttps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingHttps.debug.xcconfig"; path = "Target Support Files/Pods-AFNetworkingHttps/Pods-AFNetworkingHttps.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4B3E1E1D08BEC780850D37 /* libPods-AFNetworkingHttps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingHttps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56C448AE63F652F036BE569 /* Pods-AFNetworkingHttps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingHttps.release.xcconfig"; path = "Target Support Files/Pods-AFNetworkingHttps/Pods-AFNetworkingHttps.release.xcconfig"; sourceTree = "<group>"; };
+		EFCBC294250E72C4001C04EA /* AFNetworkingHttps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingHttps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCBC297250E72C4001C04EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFCBC298250E72C4001C04EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFCBC29A250E72C4001C04EA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EFCBC29B250E72C4001C04EA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EFCBC29D250E72C4001C04EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFCBC29E250E72C4001C04EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFCBC2A1250E72C4001C04EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFCBC2A3250E72C5001C04EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFCBC2A6250E72C5001C04EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFCBC2A8250E72C5001C04EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFCBC2A9250E72C5001C04EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFCBC2B2250E73C1001C04EA /* TwowayHttps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwowayHttps.h; sourceTree = "<group>"; };
+		EFCBC2B3250E73C1001C04EA /* TwowayHttps.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwowayHttps.m; sourceTree = "<group>"; };
+		EFCBC2B5250E74EA001C04EA /* OnewayHttps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnewayHttps.h; sourceTree = "<group>"; };
+		EFCBC2B6250E74EA001C04EA /* OnewayHttps.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnewayHttps.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFCBC291250E72C4001C04EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E5DB1DAECB9D08792560F2 /* libPods-AFNetworkingHttps.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4795E7B81CEA927CF241A891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4B3E1E1D08BEC780850D37 /* libPods-AFNetworkingHttps.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A7C67A0772319FC65A58CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F87886F9FFBEA620922386B /* Pods-AFNetworkingHttps.debug.xcconfig */,
+				D56C448AE63F652F036BE569 /* Pods-AFNetworkingHttps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFCBC28B250E72C4001C04EA = {
+			isa = PBXGroup;
+			children = (
+				EFCBC296250E72C4001C04EA /* AFNetworkingHttps */,
+				EFCBC295250E72C4001C04EA /* Products */,
+				C5A7C67A0772319FC65A58CA /* Pods */,
+				4795E7B81CEA927CF241A891 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFCBC295250E72C4001C04EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFCBC294250E72C4001C04EA /* AFNetworkingHttps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFCBC296250E72C4001C04EA /* AFNetworkingHttps */ = {
+			isa = PBXGroup;
+			children = (
+				EFCBC2B1250E73A5001C04EA /* Twoway */,
+				EFCBC2B0250E739D001C04EA /* Oneway */,
+				EFCBC297250E72C4001C04EA /* AppDelegate.h */,
+				EFCBC298250E72C4001C04EA /* AppDelegate.m */,
+				EFCBC29A250E72C4001C04EA /* SceneDelegate.h */,
+				EFCBC29B250E72C4001C04EA /* SceneDelegate.m */,
+				EFCBC29D250E72C4001C04EA /* ViewController.h */,
+				EFCBC29E250E72C4001C04EA /* ViewController.m */,
+				EFCBC2A0250E72C4001C04EA /* Main.storyboard */,
+				EFCBC2A3250E72C5001C04EA /* Assets.xcassets */,
+				EFCBC2A5250E72C5001C04EA /* LaunchScreen.storyboard */,
+				EFCBC2A8250E72C5001C04EA /* Info.plist */,
+				EFCBC2A9250E72C5001C04EA /* main.m */,
+			);
+			path = AFNetworkingHttps;
+			sourceTree = "<group>";
+		};
+		EFCBC2B0250E739D001C04EA /* Oneway */ = {
+			isa = PBXGroup;
+			children = (
+				EFCBC2B5250E74EA001C04EA /* OnewayHttps.h */,
+				EFCBC2B6250E74EA001C04EA /* OnewayHttps.m */,
+			);
+			path = Oneway;
+			sourceTree = "<group>";
+		};
+		EFCBC2B1250E73A5001C04EA /* Twoway */ = {
+			isa = PBXGroup;
+			children = (
+				EFCBC2B2250E73C1001C04EA /* TwowayHttps.h */,
+				EFCBC2B3250E73C1001C04EA /* TwowayHttps.m */,
+			);
+			path = Twoway;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFCBC293250E72C4001C04EA /* AFNetworkingHttps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFCBC2AD250E72C5001C04EA /* Build configuration list for PBXNativeTarget "AFNetworkingHttps" */;
+			buildPhases = (
+				7F2F33939B0C33FEB79C091B /* [CP] Check Pods Manifest.lock */,
+				EFCBC290250E72C4001C04EA /* Sources */,
+				EFCBC291250E72C4001C04EA /* Frameworks */,
+				EFCBC292250E72C4001C04EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworkingHttps;
+			productName = AFNetworkingHttps;
+			productReference = EFCBC294250E72C4001C04EA /* AFNetworkingHttps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFCBC28C250E72C4001C04EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = duanmu;
+				TargetAttributes = {
+					EFCBC293250E72C4001C04EA = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = EFCBC28F250E72C4001C04EA /* Build configuration list for PBXProject "AFNetworkingHttps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFCBC28B250E72C4001C04EA;
+			productRefGroup = EFCBC295250E72C4001C04EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFCBC293250E72C4001C04EA /* AFNetworkingHttps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFCBC292250E72C4001C04EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCBC2A7250E72C5001C04EA /* LaunchScreen.storyboard in Resources */,
+				EFCBC2A4250E72C5001C04EA /* Assets.xcassets in Resources */,
+				EFCBC2A2250E72C4001C04EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F2F33939B0C33FEB79C091B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFNetworkingHttps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFCBC290250E72C4001C04EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCBC2B7250E74EA001C04EA /* OnewayHttps.m in Sources */,
+				EFCBC29F250E72C4001C04EA /* ViewController.m in Sources */,
+				EFCBC299250E72C4001C04EA /* AppDelegate.m in Sources */,
+				EFCBC2AA250E72C5001C04EA /* main.m in Sources */,
+				EFCBC29C250E72C4001C04EA /* SceneDelegate.m in Sources */,
+				EFCBC2B4250E73C1001C04EA /* TwowayHttps.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFCBC2A0250E72C4001C04EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCBC2A1250E72C4001C04EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFCBC2A5250E72C5001C04EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFCBC2A6250E72C5001C04EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFCBC2AB250E72C5001C04EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFCBC2AC250E72C5001C04EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFCBC2AE250E72C5001C04EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F87886F9FFBEA620922386B /* Pods-AFNetworkingHttps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetworkingHttps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duanmu.AFNetworkingHttps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFCBC2AF250E72C5001C04EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56C448AE63F652F036BE569 /* Pods-AFNetworkingHttps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AFNetworkingHttps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = duanmu.AFNetworkingHttps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFCBC28F250E72C4001C04EA /* Build configuration list for PBXProject "AFNetworkingHttps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCBC2AB250E72C5001C04EA /* Debug */,
+				EFCBC2AC250E72C5001C04EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFCBC2AD250E72C5001C04EA /* Build configuration list for PBXNativeTarget "AFNetworkingHttps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCBC2AE250E72C5001C04EA /* Debug */,
+				EFCBC2AF250E72C5001C04EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFCBC28C250E72C4001C04EA /* Project object */;
+}

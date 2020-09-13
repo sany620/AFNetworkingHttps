@@ -1,0 +1,9 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios ,'10.0'
+inhibit_all_warnings! # 这个除去第三方库的警告
+
+target 'AFNetworkingHttps' do
+pod 'AFNetworking'
+end
